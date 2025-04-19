@@ -33,8 +33,7 @@ You can find the latest/complete documentation for the project at [IDLE Press Ar
 
 ### Prepare Your Application
 
-{: .note }
-At this time, the kiosk mode setup script only works with Linux builds. 
+*Note: At this time, the kiosk mode setup script only works with Linux builds. *
 
 Copy your built project folder into the `/home/user` folder so that your path ends up being something like `/home/user/your-game-folder`. To access the user folder on the Ubuntu desktop, double-click the folder icon in the dock.
 
@@ -50,7 +49,7 @@ That should be all you need to do in `your-game-folder` for now, so close the te
 
 ### Set Up Kiosk Mode
 
-Download the latest [Kiosk Mode Release](https://github.com/rocket5/indie-darling-arcade)  and extract the .zip on the Ubuntu desktop. Right click the `kiosk-setup` folder, select "Open in Terminal" from the menu.
+Download the latest [Kiosk Mode Release](https://github.com/rocket5/idle-press-arcade-kiosk/releases)  and extract the .zip on the Ubuntu desktop. Right click the extracted folder (eg. `idle-press-arcade-kiosk-1.0`), select "Open in Terminal" from the menu.
 
    ```bash
    # Make the setup script executable
